@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tx:tfmDataService xmlns="urn:us:gov:dot:faa:atm:tfm:ficommonmessages"
+xmlns:nas="http://www.faa.aero/nas/3.1"
+xmlns:ax="http://www.fixm.aero/tfm/3.1"
+xmlns:fb="http://www.fixm.aero/base/3.0"
+xmlns:fx="http://www.fixm.aero/flight/3.0"
+xmlns:fdm="urn:us:gov:dot:faa:atm:tfm:flightdata"
+xmlns:frt="urn:us:gov:dot:faa:atm:tfm:rapttimeline"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:tx="urn:us:gov:dot:faa:atm:tfm:tfmdataservice"
+xmlns:fim="urn:us:gov:dot:faa:atm:tfm:flowinformation"
+xmlns:fce="urn:us:gov:dot:faa:atm:tfm:ficommondatatypes"
+xmlns:fm2="urn:us:gov:dot:faa:atm:tfm:ficommonmessages2"
+xmlns:nxce="urn:us:gov:dot:faa:atm:tfm:tfmdatacoreelements"
+xmlns:trr="urn:us:gov:dot:faa:atm:tfm:tfmrequestreplytypes"
+xmlns:nxcm="urn:us:gov:dot:faa:atm:tfm:flightdatacommonmessages"
+xsi:schemaLocation="urn:us:gov:dot:faa:atm:tfm:tfmdataservice TFMData_Service.xsd">
+        <tx:tfmRequestReply>
+                <tx:request serviceCode="SSBLOCK">
+                        <trr:requestId>
+                                <trr:requestor>
+                                        <fm2:center>AAL</fm2:center>
+                               </trr:requestor>
+                                <trr:uniqueMsgId>25048748-b3c1-419e-8bea-7bf664bd72ea</trr:uniqueMsgId>
+                                <trr:replyOption>SUCC_OR_ERR_OR_WARN</trr:replyOption>
+                   </trr:requestId>
+                        <trr:subBlockReq>
+                                <trr:ssFlightModify>
+                                        <trr:commonCompositeFlightId>
+                                                <trr:callSign>AAL16M</trr:callSign>
+                                                <trr:departureAirport>MKL</trr:departureAirport>
+                                                <trr:arrivalAirport>RDU</trr:arrivalAirport>
+                                                <trr:departureDateTime>2016-07-29T21:00:00</trr:departureDateTime>
+                                        </trr:commonCompositeFlightId>
+                                        <trr:controlledDepartureTime>2016-07-29T21:02:00</trr:controlledDepartureTime>
+                                        <trr:controlledArrivalTime>2016-07-29T22:15:00</trr:controlledArrivalTime>
+                                        <trr:assignedArrivalSlot>
+                                                <trr:airport>RDU</trr:airport>
+                                                <trr:slotTime>2016-07-29T22:15:00</trr:slotTime>
+                                                <trr:uniqueLetter>A</trr:uniqueLetter>
+                                        </trr:assignedArrivalSlot>
+                                </trr:ssFlightModify>
+	                        <trr:ssFlightModify>
+                                        <trr:commonCompositeFlightId>
+                                                <trr:callSign>AAL14M</trr:callSign>
+                                                <trr:departureAirport>MKL</trr:departureAirport>
+                                                <trr:arrivalAirport>RDU</trr:arrivalAirport>
+                                                <trr:departureDateTime>2016-07-29T20:50:00</trr:departureDateTime>
+                                        </trr:commonCompositeFlightId>
+                                        <trr:controlledDepartureTime>2016-07-29T21:27:00</trr:controlledDepartureTime>
+                                        <trr:controlledArrivalTime>2016-07-29T22:40:00</trr:controlledArrivalTime>
+                                        <trr:assignedArrivalSlot>
+                                                <trr:airport>RDU</trr:airport>
+                                                <trr:slotTime>2016-07-29T22:40:00</trr:slotTime>
+                                                <trr:uniqueLetter>A</trr:uniqueLetter>
+                                        </trr:assignedArrivalSlot>
+                                </trr:ssFlightModify>
+                        </trr:subBlockReq>
+                </tx:request>
+        </tx:tfmRequestReply>
+</tx:tfmDataService>
